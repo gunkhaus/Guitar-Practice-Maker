@@ -7,7 +7,7 @@ This project was a final for a college course. We were provided with a lot of fr
 # The BIG problem with this code
 If you know guitar, you know there's 12 frets in an octave. I split these frets into 3 sperate, "blocks," and used multithreading to compute and display these 3 blocks. I figured it would be a smart way to generate the tablature. It actually turned out to be a massive headache as I managed to create a plethora of race conditions. All the algorithmic work I did is most likely undone by the, "safety rail," code I had to set up in order to keep the final product displayed from being a gigantic MESS.
 
-TL,DR: I used a sleep(1) statement to solve all my race condition relsted problems.
+TL,DR: I used a sleep(1) statement to solve all my race condition related problems.
 
 # What I Learned
 Reinforced Skills in server client communication and multihreading.
